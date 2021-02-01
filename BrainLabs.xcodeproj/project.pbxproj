@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		25EA5DB625BE376B00991452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5DB525BE376B00991452 /* AppDelegate.swift */; };
 		25EA5DB825BE376B00991452 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5DB725BE376B00991452 /* SceneDelegate.swift */; };
-		25EA5DBA25BE376B00991452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5DB925BE376B00991452 /* ViewController.swift */; };
-		25EA5DBD25BE376B00991452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA5DBB25BE376B00991452 /* Main.storyboard */; };
 		25EA5DBF25BE376D00991452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EA5DBE25BE376D00991452 /* Assets.xcassets */; };
 		25EA5DC225BE376D00991452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA5DC025BE376D00991452 /* LaunchScreen.storyboard */; };
 		25EA5DCD25BE376D00991452 /* BrainLabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5DCC25BE376D00991452 /* BrainLabsTests.swift */; };
 		25EA5DD825BE376D00991452 /* BrainLabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5DD725BE376D00991452 /* BrainLabsUITests.swift */; };
+		25EA5E3325C7CEC200991452 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5E2D25C7CEC200991452 /* HomePresenter.swift */; };
+		25EA5E3425C7CEC200991452 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5E2E25C7CEC200991452 /* HomeWorker.swift */; };
+		25EA5E3525C7CEC200991452 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5E2F25C7CEC200991452 /* HomeRouter.swift */; };
+		25EA5E3625C7CEC200991452 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5E3025C7CEC200991452 /* HomeModels.swift */; };
+		25EA5E3725C7CEC200991452 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5E3125C7CEC200991452 /* HomeViewController.swift */; };
+		25EA5E3825C7CEC200991452 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA5E3225C7CEC200991452 /* HomeInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,6 @@
 		25EA5DB225BE376B00991452 /* BrainLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA5DB525BE376B00991452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25EA5DB725BE376B00991452 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		25EA5DB925BE376B00991452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		25EA5DBC25BE376B00991452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25EA5DBE25BE376D00991452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25EA5DC125BE376D00991452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25EA5DC325BE376D00991452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		25EA5DD325BE376D00991452 /* BrainLabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainLabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA5DD725BE376D00991452 /* BrainLabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainLabsUITests.swift; sourceTree = "<group>"; };
 		25EA5DD925BE376D00991452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EA5E2D25C7CEC200991452 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		25EA5E2E25C7CEC200991452 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		25EA5E2F25C7CEC200991452 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		25EA5E3025C7CEC200991452 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		25EA5E3125C7CEC200991452 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		25EA5E3225C7CEC200991452 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,8 @@
 		25EA5DB425BE376B00991452 /* BrainLabs */ = {
 			isa = PBXGroup;
 			children = (
-				25EA5DB525BE376B00991452 /* AppDelegate.swift */,
-				25EA5DB725BE376B00991452 /* SceneDelegate.swift */,
-				25EA5DB925BE376B00991452 /* ViewController.swift */,
-				25EA5DBB25BE376B00991452 /* Main.storyboard */,
+				25EA5E2825C7CE7B00991452 /* Utilities */,
+				25EA5E2725C7CE7200991452 /* Scenes */,
 				25EA5DBE25BE376D00991452 /* Assets.xcassets */,
 				25EA5DC025BE376D00991452 /* LaunchScreen.storyboard */,
 				25EA5DC325BE376D00991452 /* Info.plist */,
@@ -126,6 +132,36 @@
 				25EA5DD925BE376D00991452 /* Info.plist */,
 			);
 			path = BrainLabsUITests;
+			sourceTree = "<group>";
+		};
+		25EA5E2725C7CE7200991452 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				25EA5E2925C7CE9700991452 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		25EA5E2825C7CE7B00991452 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				25EA5DB525BE376B00991452 /* AppDelegate.swift */,
+				25EA5DB725BE376B00991452 /* SceneDelegate.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		25EA5E2925C7CE9700991452 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				25EA5E2E25C7CEC200991452 /* HomeWorker.swift */,
+				25EA5E3125C7CEC200991452 /* HomeViewController.swift */,
+				25EA5E3225C7CEC200991452 /* HomeInteractor.swift */,
+				25EA5E2D25C7CEC200991452 /* HomePresenter.swift */,
+				25EA5E2F25C7CEC200991452 /* HomeRouter.swift */,
+				25EA5E3025C7CEC200991452 /* HomeModels.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +269,6 @@
 			files = (
 				25EA5DC225BE376D00991452 /* LaunchScreen.storyboard in Resources */,
 				25EA5DBF25BE376D00991452 /* Assets.xcassets in Resources */,
-				25EA5DBD25BE376B00991452 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25EA5DBA25BE376B00991452 /* ViewController.swift in Sources */,
+				25EA5E3325C7CEC200991452 /* HomePresenter.swift in Sources */,
 				25EA5DB625BE376B00991452 /* AppDelegate.swift in Sources */,
+				25EA5E3425C7CEC200991452 /* HomeWorker.swift in Sources */,
+				25EA5E3825C7CEC200991452 /* HomeInteractor.swift in Sources */,
 				25EA5DB825BE376B00991452 /* SceneDelegate.swift in Sources */,
+				25EA5E3625C7CEC200991452 /* HomeModels.swift in Sources */,
+				25EA5E3725C7CEC200991452 /* HomeViewController.swift in Sources */,
+				25EA5E3525C7CEC200991452 /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +336,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		25EA5DBB25BE376B00991452 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25EA5DBC25BE376B00991452 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		25EA5DC025BE376D00991452 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
